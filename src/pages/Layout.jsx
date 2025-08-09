@@ -26,7 +26,7 @@ import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
 import Footer from '../components/medprime/Footer';
 import UpdateChecker from '../components/medprime/UpdateChecker';
-import { NetworkProvider, useNetwork } from '../components/network/NetworkErrorHandler.js';
+import { NetworkProvider, useNetwork } from '../components/network/NetworkErrorHandler.jsx';
 import { NetworkInterceptor } from '../components/network/NetworkInterceptor.jsx';
 import { getLevelForXp, getXpForLevel } from '@/components/gamification/utils';
 
