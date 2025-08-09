@@ -15,7 +15,7 @@ import { User } from "@/api/entities";
 import { getLevelForXp } from '@/components/gamification/utils';
 
 // New imports for network error handling and data persistence
-import { saveTemporaryData, getTemporaryData, clearTemporaryData } from '../components/network/DataPersistence.jsxxss';
+import { saveTemporaryData, getTemporaryData, clearTemporaryData } from '../components/network/DataPersistence.jsx';
 import { useNetwork } from '../components/network/NetworkErrorHandler.js';
 
 import FlashcardPreview from "../components/create/FlashcardPreview";
